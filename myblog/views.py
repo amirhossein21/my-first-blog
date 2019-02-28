@@ -9,3 +9,5 @@ def post_list(request):
     return render(request, 'myblog/post_list.html', {'posts': posts})  #tu temlate 'posts' in chizieh ke azash estefade mikonim
 
 
+def sj1(request):
+	return render(request,'myblog/sj1.html',{})
